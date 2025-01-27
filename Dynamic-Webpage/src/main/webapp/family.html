@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Family Information Form</title>
+<link rel="stylesheet" href="family.css">
+</head>
+<body>
+	<div class="form-container">
+		<h2>Family Information</h2>
+		<form action="DashBoard" method="get">
+			
+			<label for="fatherName">Father's Name:</label> <input type="text"
+				id="fatherName" name="fatherName" required>
+
+			
+			<label for="motherName">Mother's Name:</label> <input type="text"
+				id="motherName" name="motherName" required>
+
+		
+			<label for="siblings">Number of Siblings:</label> <input
+				type="number" id="siblings" name="siblings" min="0" required>
+
+			
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
